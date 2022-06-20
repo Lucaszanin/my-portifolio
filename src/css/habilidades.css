@@ -1,0 +1,40 @@
+.habilidades .container-habilidades{    
+    text-align: center;
+    justify-content: center;
+}
+
+.habilidades .container-habilidades .habilidade{
+    max-width: 350px;
+    padding: 40px 20px;
+}
+
+.habilidades .container-habilidades .habilidade:hover{
+    color: var(--cor-secundaria);
+}
+
+.habilidades .container-habilidades .habilidade p,
+.habilidades .container-habilidades .habilidade h3,
+.habilidades .container-habilidades .habilidade .logo i{
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;    
+}
+
+.habilidades .container-habilidades .habilidade h3{
+    color: var(--cor-secundaria);
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.habilidades .container-habilidades .habilidade p{
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.habilidades .container-habilidades .habilidade i{
+    font-size: 8rem;
+}
+
+
