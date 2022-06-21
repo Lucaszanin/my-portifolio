@@ -112,3 +112,9 @@ body {
   visibility: visible;
   transform: translateY(0);
 }
+
+@media (max-width:450px) {
+  body {
+    overflow-x: hidden;
+  }
+}
