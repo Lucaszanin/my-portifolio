@@ -113,7 +113,7 @@ body {
   transform: translateY(0);
 }
 
-@media (max-width:450px) {
+@media (max-width:350px) {
   body {
     overflow-x: hidden;
   }
