@@ -18,13 +18,13 @@ buttonTop.addEventListener('click', () => {
 
 sr.reveal('.texto-home', { 
     duration: 3000,
-    origin: 'left',
+    origin: 'top',
     distance: '150px',
 });
 
 
 sr.reveal('.img-home', {
-    rotate: { x: 0, y: 90, z: 0 },
+    rotate: { x: 90, y: 90, z: 0 },
     duration: 2000
 });
 
@@ -34,25 +34,25 @@ sr.reveal('.imagem-sobre-mim', {
 });
 
 sr.reveal('.informacoes-sobre-mim', {
-    origin: 'rigth',
+    origin: 'bottom',
     distance: '150px',
     duration: 2000
 });
 
 sr.reveal('.section-title', {
     origin: 'top',
-    distance: '50px',
+    distance: '150px',
     duration: 2000
 });       
 
 sr.reveal('.container-habilidades', {
-    origin: 'rigth',
+    origin: 'bottom',
     distance: '150px',
     duration: 2000
 });
 
 sr.reveal('.container-projetos', {
-    origin: 'rigth',
+    origin: 'top',
     distance: '150px',
     duration: 2000
 });

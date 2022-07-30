@@ -1,8 +1,9 @@
 .projetos .container-projetos{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin: 0 auto;
-    grid-gap: 25px;
+    grid-gap: 10px;
 }
 
 @media(max-width: 1280px){
@@ -12,7 +13,7 @@
 }
 
 .projetos .container-projetos .projeto{
-    border-radius: 5px;
+    border-radius: 20px;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -32,10 +33,12 @@
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto{
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
     background-color: var(--cor-fundo-escuro);
     position: absolute;
     top: 0;
+    border-radius: 10px;
     height: 100%;
     width: 100%;
     opacity: 0;
