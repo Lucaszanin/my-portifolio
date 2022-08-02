@@ -11,13 +11,14 @@
   <link rel="stylesheet" href="src/css/reset.css" />
 
   <!-- Bibli scrollreveal -->
-   <script src="https://unpkg.com/scrollreveal"></script>
-  
+  <script src="https://unpkg.com/scrollreveal"></script>
+
   <link rel="stylesheet" href="src/css/variaveis.css">
 
   <!-- Global -->
   <link rel="stylesheet" href="src/css/globais.css" />
-
+  <link rel="stylesheet" href="src/lib/owlcarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="src/lib/owlcarousel/dist/assets/owl.theme.default.min.css">
   <!-- Seções -->
   <link rel="stylesheet" href="src/css/header.css">
   <link rel="stylesheet" href="src/css/home.css">
@@ -49,7 +50,7 @@
           <ul>
             <li><a href="#sobre-mim">Sobre mim</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
+            <li><a href="#projects">Meus projetos</a></li>
           </ul>
         </nav>
 
@@ -130,7 +131,9 @@
           </p>
 
           <div class="botoes">
-            <a target="_blank" href="https://www.canva.com/design/DAE7Fpt-JqY/PNl1HFZ3lTmhVGBUYRVDFg/view?utm_content=DAE7Fpt-JqY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="botao outter-shadow">Veja meu CV</a>
+            <a target="_blank"
+              href="https://www.canva.com/design/DAE7Fpt-JqY/PNl1HFZ3lTmhVGBUYRVDFg/view?utm_content=DAE7Fpt-JqY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              class="botao outter-shadow">Veja meu CV</a>
           </div>
         </div>
       </div>
@@ -192,60 +195,72 @@
     </div>
   </section>
 
-  <section class="projetos" id="projetos">
+
+  <section class="projects" id="projects">
+
     <div class="container">
       <div class="row">
         <div class="section-title">
-          <h2>Meus Projetos</h2>
+          <h2>Projetos</h2>
         </div>
       </div>
-    </div>
+    
+      <section class="cards-wrapper">
+        <div class="card-grid-space">
+          <a class="card" href="https://lucaszanin.github.io/desafio-js-avancado-devquest/" target="_blank"
+          style="--bg-img: url('../imagens/projeto-1.jpg')">
+            <div>
+              <h1>Consumindo API do Github</h1>
+              <p>Projeto realizado utilizando javaScript purom com intuito de realizar busca de usuários do github…</p>
+              <div class="date">31 maio 2022</div>
+              <div class="tags">
+                <div class="tag">Vizualizar Projeto</div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-    <div class="container-projetos container">
-      <div class="projeto">
-        <a href="https://lucaszanin.github.io/desafio-js-avancado-devquest/" target="_blank">
-          <img src="src/imagens/projeto-1.jpg" alt="Consumindo a API do Github com Fetch puro">
-          <h3>Consumindo a API do Github com JavaScript Puro</h3>
-          <div class="informacoes-projeto">
-            <p>Neste projeto proposto no curso Devquest como desafio, utilizei conceitos de POO, requisições com fetch, funções assincronas, Async e Await,e manipulação do DOM, além de CSS Flexbox e variáveis e html semântico</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
+        <div class="card-grid-space">
+          <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
+            style="--bg-img: url('../imagens/projeto-2.jpg')" target="_blank">
+            <div>
+              <h1>Doctor Care</h1>
+              <p>Prjeto realizado na NLW Return 2022 da Rocketseat trilha discovery…</p>
+              <div class="date">08 maio 2022</div>
+              <div class="tags">
+                <div class="tag">Vizualizar Projeto</div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-      <div class="projeto">
-        <a href="https://lucaszanin.github.io/doctorcare-nlw-2022/" target="_blank">
-          <img src="src/imagens/projeto-2.jpg" alt="Landing Page Doctor Care NLW 2022">
-          <h3>Doctor Care</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto feito na NLW 2022 evento da Rocketseat, foi proposto a criação de um layout totalmente responsivo com menu hamburger, algumas animações em JavaScript e também um layout que pode ser utilizado para vários seguimentos como landing page.
-            </p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
+        <div class="card-grid-space">
+          <a class="card" href="https://lucaszanin.github.io/projeto-landing-page/"
+            style="--bg-img: url('../imagens/projeto-3.jpg')" target="_blank">
+            <div>
+              <h1>Landing Page Agência WEBGO</h1>
+              <p>Projeto realizado no evento Mapa Dev Week do curso de desenvolvimento front-end Devquest…</p>
+              <div class="date">23 janeiro 2022</div>
+              <div class="tags">
+                <div class="tag">Vizualizar Projeto</div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-      <div class="projeto">
-        <a href="https://lucaszanin.github.io/projeto-landing-page/#" target="_blank">
-          <img src="src/imagens/projeto-3.jpg" alt="Landing Page Agência WGO">
-          <h3>Landing Page Agência WGO</h3>
-          <div class="informacoes-projeto">
-            <p>Projeto de uma landing page simples com Html, CSS3 e JavaScript, layout totalmente responsivo e foi criado um painel carrosel de imagens com transição utilizando JavaScript.</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="projeto">
-        <a href="https://lucaszanin.github.io/layout-game/" target="_blank">
-          <img src="src/imagens/projeto-4.jpg" alt="Nome do projeto 4">
-          <h3>Layout Street Fighter</h3>
-          <div class="informacoes-projeto">
-            <p>Foi desenvolvido no evento Mapa Dev Week do curso Devquest, o intuito era criar um layout de um game de luta, utlizando apenas HTML, CSS e JavaScript, foram aplicados muitos conceitos de manipulação do DOM, CSS Flexbox e fontes externas.</p>
-            <p>🔗 Ver no GitHub Pages</p>
-          </div>
-        </a>
-      </div>
+        <div class="card-grid-space">
+          <a class="card" href="https://lucaszanin.github.io/projeto-landing-page/"
+            style="--bg-img: url('../imagens/projeto-4.jpg')" target="_blank">
+            <div>
+              <h1>Landing Page Agência WEBGO</h1>
+              <p>Projeto realizado no evento Mapa Dev Week do curso de desenvolvimento front-end Devquest…</p>
+              <div class="date">23 janeiro 2022</div>
+              <div class="tags">
+                <div class="tag">Vizualizar Projeto</div>
+              </div>
+            </div>
+          </a>
+        </div>
     </div>
   </section>
 
@@ -269,31 +284,13 @@
     </div>
   </footer>
   <a id="backToTopButton" href="#home">
-    <svg
-      width="40"
-      height="40"
-      viewBox="0 0 40 40"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="20" cy="20" r="20" fill="#00856F" />
-      <path
-        d="M20 27V13"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M13 20L20 13L27 20"
-        stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
+      <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
   </a>
-
+  <script src="src/lib/owlcarousel/dist/owl.carousel.min.js"></script>
   <script src="src/scripts/index.js"></script>
 </body>
 

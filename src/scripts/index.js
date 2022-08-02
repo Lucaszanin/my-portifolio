@@ -16,7 +16,7 @@ buttonTop.addEventListener('click', () => {
 })
 
 
-sr.reveal('.texto-home', { 
+sr.reveal('.texto-home', {
     duration: 3000,
     origin: 'top',
     distance: '150px',
@@ -43,7 +43,7 @@ sr.reveal('.section-title', {
     origin: 'top',
     distance: '150px',
     duration: 2000
-});       
+});
 
 sr.reveal('.container-habilidades', {
     origin: 'bottom',
@@ -57,3 +57,25 @@ sr.reveal('.container-projetos', {
     duration: 2000
 });
 
+
+$('.carousel').owlCarousel({
+    margin: 10,
+    loop: true,
+    autoplay: true,
+    autoplayTimeOut: 2000,
+    autoplayHoverPause: true,
+    responsive: {
+        0:{
+            items: 1,
+            nav: false
+        },
+        600:{
+            items: 2,
+            nav: false
+        },
+        1000:{
+            items: 3,
+            nav: false
+        }
+    }
+});
