@@ -15,8 +15,8 @@
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 3rem;
-  padding: 3rem;
+  grid-gap: 1rem;
+  padding: 4rem;
   margin: 0 auto;
 }
 
@@ -147,13 +147,13 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1458px) {
   .projetos .container-projetos {
     padding: 0 var(--mobile-padding);
   }
 
   .cards-wrapper {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
