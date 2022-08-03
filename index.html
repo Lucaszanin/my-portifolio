@@ -10,15 +10,15 @@
   <link rel="stylesheet" href="src/css/font-awesome.css" />
   <link rel="stylesheet" href="src/css/reset.css" />
 
-  <!-- Bibli scrollreveal -->
+  <!-- Biblis -->
   <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
 
   <link rel="stylesheet" href="src/css/variaveis.css">
 
   <!-- Global -->
   <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/lib/owlcarousel/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="src/lib/owlcarousel/dist/assets/owl.theme.default.min.css">
+
   <!-- Seções -->
   <link rel="stylesheet" href="src/css/header.css">
   <link rel="stylesheet" href="src/css/home.css">
@@ -196,7 +196,7 @@
   </section>
 
 
-  <section class="projects" id="projects">
+  <section class="projects c-carousel" id="projects">
 
     <div class="container">
       <div class="row">
@@ -204,11 +204,12 @@
           <h2>Projetos</h2>
         </div>
       </div>
-    
-      <section class="cards-wrapper">
-        <div class="card-grid-space">
+
+      <div class="cards-wrapper js-carousel">
+
+        <div class="card-grid-space c-carousel_slide">
           <a class="card" href="https://lucaszanin.github.io/desafio-js-avancado-devquest/" target="_blank"
-          style="--bg-img: url('../imagens/projeto-1.jpg')">
+            style="--bg-img: url('../imagens/projeto-1.jpg')">
             <div>
               <h1>Consumindo API do Github</h1>
               <p>Projeto realizado utilizando javaScript purom com intuito de realizar busca de usuários do github…</p>
@@ -220,7 +221,7 @@
           </a>
         </div>
 
-        <div class="card-grid-space">
+        <div class="card-grid-space c-carousel_slide">
           <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/"
             style="--bg-img: url('../imagens/projeto-2.jpg')" target="_blank">
             <div>
@@ -234,7 +235,7 @@
           </a>
         </div>
 
-        <div class="card-grid-space">
+        <div class="card-grid-space c-carousel_slide">
           <a class="card" href="https://lucaszanin.github.io/projeto-landing-page/"
             style="--bg-img: url('../imagens/projeto-3.jpg')" target="_blank">
             <div>
@@ -248,20 +249,81 @@
           </a>
         </div>
 
-        <div class="card-grid-space">
-          <a class="card" href="https://lucaszanin.github.io/projeto-landing-page/"
+        <div class="card-grid-space c-carousel_slide">
+          <a class="card" href="https://lucaszanin.github.io/layout-game/"
             style="--bg-img: url('../imagens/projeto-4.jpg')" target="_blank">
             <div>
-              <h1>Landing Page Agência WEBGO</h1>
-              <p>Projeto realizado no evento Mapa Dev Week do curso de desenvolvimento front-end Devquest…</p>
-              <div class="date">23 janeiro 2022</div>
+              <h1>Layout Street Fighter</h1>
+              <p>Projeto foi inspirado no layout do Character Select do game Street Fighter…</p>
+              <div class="date">20 de Junho 2022</div>
               <div class="tags">
                 <div class="tag">Vizualizar Projeto</div>
               </div>
             </div>
           </a>
         </div>
+
+        <div class="card-grid-space c-carousel_slide">
+          <a class="card" href="https://lucaszanin.github.io/nina-atelie/"
+            style="--bg-img: url('../imagens/projeto-5.jpg')" target="_blank">
+            <div>
+              <h1>Nina Ateliê das Doçuras</h1>
+              <p>Projeto freelancer de uma landing page para uma doceria…</p>
+              <div class="date">28 de Julho 2022</div>
+              <div class="tags">
+                <div class="tag">Vizualizar Projeto</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-grid-space c-carousel_slide">
+          <a class="card" href="https://ignite-lab-react-fgtabvt67-lucaszanin.vercel.app/"
+            style="--bg-img: url('../imagens/projeto-6.jpg')" target="_blank">
+            <div>
+              <h1>Plataforma de Videos com React</h1>
+              <p>Projeto realizado no evento da Rockeseat Ignite Lab feito com React, consumindo uma API Graphql com Graphcms…</p>
+              <div class="date">25 de Junho 2022</div>
+              <div class="tags">
+                <div class="tag">Vizualizar Projeto</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-grid-space c-carousel_slide">
+          <a class="card" href="https://lucaszanin.github.io/pokeagenda/"
+            style="--bg-img: url('../imagens/projeto-7.jpg')" target="_blank">
+            <div>
+              <h1>Pokeagenda</h1>
+              <p>Projeto de uma pokeageand com Javascript puro e layout responsivo…</p>
+              <div class="date">17 de Março 2022</div>
+              <div class="tags">
+                <div class="tag">Vizualizar Projeto</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card-grid-space c-carousel_slide">
+          <a class="card" href="https://lucaszanin.github.io/project-landing-page-gridlayout/"
+            style="--bg-img: url('../imagens/projeto-8.jpg')" target="_blank">
+            <div>
+              <h1>Landing Page Code Café</h1>
+              <p>Projeto landing page criado com HTML e CSS utilizando Grid Layout…</p>
+              <div class="date">19 de Fevereiro 2022</div>
+              <div class="tags">
+                <div class="tag">Vizualizar Projeto</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
+
+    <!-- <button class="js-carousel-prev" aria-label="Anterior"><<</button>
+    <button class="js-carousel-next" aria-label="Próximo">></button>
+    <div class="js-carousel-dots"  role="tablist"></div> -->
   </section>
 
   <footer class="footer">
@@ -283,6 +345,7 @@
       </div>
     </div>
   </footer>
+
   <a id="backToTopButton" href="#home">
     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="20" cy="20" r="20" fill="#00856F" />
@@ -290,7 +353,8 @@
       <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
   </a>
-  <script src="src/lib/owlcarousel/dist/owl.carousel.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
   <script src="src/scripts/index.js"></script>
 </body>
 

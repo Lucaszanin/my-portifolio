@@ -58,24 +58,31 @@ sr.reveal('.container-projetos', {
 });
 
 
-$('.carousel').owlCarousel({
-    margin: 10,
-    loop: true,
-    autoplay: true,
-    autoplayTimeOut: 2000,
-    autoplayHoverPause: true,
-    responsive: {
-        0:{
-            items: 1,
-            nav: false
-        },
-        600:{
-            items: 2,
-            nav: false
-        },
-        1000:{
-            items: 3,
-            nav: false
-        }
-    }
-});
+const simpleCarousel = document.querySelector('.js-carousel')
+
+// new Glider(simpleCarousel, {
+//     slidesToShow: 4,
+//     slidesToScroll: 4,
+//     draggable: true,
+//     dots: '.js-carousel-dots',
+//     arrows: {
+//         prev: '.js-carousel-prev',
+//         next: '.js-carousel-next',
+//     },
+//     responsive: [
+//         {
+//             breakpoint: 475,
+//             settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1,
+//             },
+//         },
+//         {
+//             breakpoint: 900,
+//             settings: {
+//                 slidesToShow: 3,
+//                 slidesToScroll: 3,
+//             },
+//         },
+//     ],
+// })
