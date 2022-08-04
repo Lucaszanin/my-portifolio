@@ -15,6 +15,7 @@
     border: 2px solid var(--cor-azul-media);
     animation: c-glowing-blue .3s ease infinite;
     animation-direction: alternate;
+    background-color: var( --cor-fundo-cinza-claro);
 }
 
 @keyframes c-glowing-blue {
@@ -29,7 +30,7 @@
 
 
 .habilidade .card-border::before {
-    background: hsl(16, 98%, 50%);
+    background: hsl(16, 79%, 45%);
 }
 
 .skills_card::after {
@@ -41,7 +42,7 @@
 }
 
 .habilidades .container-habilidades .habilidade:hover {
-    color: var(--cor-fundo-cinza-escuro);
+    color: var(--cor-secundaria);
 }
 
 .habilidades .container-habilidades .habilidade p,

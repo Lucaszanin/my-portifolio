@@ -34,7 +34,7 @@
     height: 50px;
     border: none;
     outline: none;
-    color: #fff;
+    color: var(--cor-secundaria);
     background: #111;
     cursor: pointer;
     position: relative;
@@ -43,7 +43,7 @@
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #f50000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, var(--cor-secundaria), var(--cor-fundo-cinza-claro),var(--cor-secundaria), var(--cor-fundo-cinza-claro), var(--cor-secundaria), var(--cor-fundo-cinza-claro), var(--cor-secundaria), var(--cor-fundo-cinza-claro), var(--cor-secundaria));
     position: absolute;
     background-size: 400%;
     z-index: -1;
@@ -57,7 +57,7 @@
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: rgb(207, 21, 21)
 }
 
 .glow-on-hover:active:after {

@@ -52,6 +52,7 @@
   margin: 0;
   font-size: 1.5em;
   line-height: 1.2em;
+  text-shadow: 3px 3px 1px var(--cor-fundo-cinza-claro);
 }
 
 .card p {
@@ -59,6 +60,8 @@
   font-family: var(--fonte-secundaria);
   margin-top: 0.5em;
   line-height: 2em;
+  text-shadow: 5px 5px 5px var(--cor-fundo-cinza-claro);
+  filter: brightness(1.10);
 }
 
 .card .tags {
