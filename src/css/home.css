@@ -36,9 +36,12 @@
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-gigante);
     font-weight: 700;
-    margin-bottom: 20px;
 }
-.home .texto-home h1 span {
+
+.home .texto-home span {
+    font-size: var(--fonte-gigante);
+    font-weight: 700;
+    font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
 }
 
