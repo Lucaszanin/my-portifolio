@@ -8,13 +8,12 @@
 .habilidades .container-habilidades .habilidade {
     max-width: 300px;
     padding: 40px 20px;
-    background-color: var(--cor-secundaria);
     border-radius: 10px;
 }
 
 .habilidades .container-habilidades .habilidade {
     border: 2px solid var(--cor-azul-media);
-    animation: c-glowing-blue .3s ease-in-out infinite;
+    animation: c-glowing-blue .3s ease infinite;
     animation-direction: alternate;
 }
 
