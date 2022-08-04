@@ -1,40 +1,71 @@
-.habilidades .container-habilidades{    
+.habilidades .container-habilidades {
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.habilidades .container-habilidades .habilidade{
-    max-width: 350px;
+.habilidades .container-habilidades .habilidade {
+    max-width: 300px;
     padding: 40px 20px;
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
 }
 
-.habilidades .container-habilidades .habilidade:hover{
-    color: var(--cor-secundaria);
+.habilidades .container-habilidades .habilidade {
+    border: 2px solid var(--cor-azul-media);
+    animation: c-glowing-blue .3s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes c-glowing-blue {
+    0% {
+      box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria), 0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria), 0 0 10px var(--cor-secundaria)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca), 0 0 7.5px var(--cor-azul-fraca), 0 0 10px var(--cor-secundaria), 0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria)
+    }
+  }
+
+
+.habilidade .card-border::before {
+    background: hsl(16, 98%, 50%);
+}
+
+.skills_card::after {
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background: var(--container-color);
+    border-radius: 20px;
+}
+
+.habilidades .container-habilidades .habilidade:hover {
+    color: var(--cor-fundo-cinza-escuro);
 }
 
 .habilidades .container-habilidades .habilidade p,
 .habilidades .container-habilidades .habilidade h3,
-.habilidades .container-habilidades .habilidade .logo i{
+.habilidades .container-habilidades .habilidade .logo i {
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;    
+    -webkit-transition: all 0.3s ease;
 }
 
-.habilidades .container-habilidades .habilidade h3{
+.habilidades .container-habilidades .habilidade h3 {
     color: var(--cor-secundaria);
     font-size: var(--fonte-extra-grande);
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.habilidades .container-habilidades .habilidade p{
+.habilidades .container-habilidades .habilidade p {
     font-size: 1.8rem;
     font-family: var(--fonte-secundaria);
 }
 
-.habilidades .container-habilidades .habilidade i{
+.habilidades .container-habilidades .habilidade i {
     font-size: 8rem;
 }
-
-

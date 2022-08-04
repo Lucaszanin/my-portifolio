@@ -18,14 +18,15 @@
   grid-gap: 1rem;
   padding: 4rem;
   margin: 0 auto;
+  width: 100%;
 }
 
 .card {
   font-family: var(--fonte-primaria);
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0, 0, 0, var(--bg-filter-opacity)), rgba(0, 0, 0, var(--bg-filter-opacity))), var(--bg-img);
-  height: 20em;
-  width: 15em;
+  height: 40rem;
+  width: 30rem;
   font-size: 1.5em;
   color: white;
   border-radius: 1em;

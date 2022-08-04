@@ -57,32 +57,3 @@ sr.reveal('.container-projetos', {
     duration: 2000
 });
 
-
-const simpleCarousel = document.querySelector('.js-carousel')
-
-// new Glider(simpleCarousel, {
-//     slidesToShow: 4,
-//     slidesToScroll: 4,
-//     draggable: true,
-//     dots: '.js-carousel-dots',
-//     arrows: {
-//         prev: '.js-carousel-prev',
-//         next: '.js-carousel-next',
-//     },
-//     responsive: [
-//         {
-//             breakpoint: 475,
-//             settings: {
-//                 slidesToShow: 1,
-//                 slidesToScroll: 1,
-//             },
-//         },
-//         {
-//             breakpoint: 900,
-//             settings: {
-//                 slidesToShow: 3,
-//                 slidesToScroll: 3,
-//             },
-//         },
-//     ],
-// })

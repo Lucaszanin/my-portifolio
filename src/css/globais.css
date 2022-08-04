@@ -69,7 +69,7 @@ body {
   text-align: center;
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .section-title h2 {
@@ -84,12 +84,6 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   transition: all 0.3s ease;
-  background-color: var(--cor-secundaria);
-}
-
-.botao:hover {
-  background-color: var(--cor-secundaria);
-  color: var(--cor-branca);
 }
 
 /* BACK TO TOP */
@@ -111,10 +105,4 @@ body {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
-}
-
-@media (max-width:350px) {
-  body {
-    overflow-x: hidden;
-  }
 }
