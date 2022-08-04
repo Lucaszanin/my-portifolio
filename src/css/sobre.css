@@ -23,6 +23,7 @@
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .glow-on-hover {
