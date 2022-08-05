@@ -24,8 +24,8 @@ sr.reveal('.texto-home', {
 
 
 sr.reveal('.img-home', {
-    duration: 3000,
-    origin: 'top',
+    duration: 2000,
+    origin: 'left',
     distance: '150px',
 });
 
