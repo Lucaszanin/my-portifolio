@@ -24,6 +24,7 @@
 .home .img-home .img-box img {
     width: 100%;
     height: 70vh;
+    filter: drop-shadow(5px 5px 300px #bd9243);
 }
 
 .home .texto-home p {
