@@ -23,7 +23,7 @@ sr.reveal('.texto-home', {
 });
 
 
-sr.reveal('.img-home', {
+sr.reveal('.img-box', {
     duration: 2000,
     origin: 'left',
     distance: '150px',
