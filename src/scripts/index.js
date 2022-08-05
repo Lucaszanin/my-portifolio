@@ -24,12 +24,14 @@ sr.reveal('.texto-home', {
 
 
 sr.reveal('.img-home', {
-    rotate: { x: 90, y: 90, z: 0 },
-    duration: 2000
+    duration: 3000,
+    origin: 'top',
+    distance: '150px',
 });
 
 sr.reveal('.imagem-sobre-mim', {
-    rotate: { x: 100, y: 100, z: 0 },
+    origin: 'bottom',
+    distance: '150px',
     duration: 2000
 });
 
@@ -52,8 +54,13 @@ sr.reveal('.container-habilidades', {
 });
 
 sr.reveal('.container-projetos', {
+    origin: 'bottom',
+    distance: '100px',
+    duration: 2000
+});
+
+sr.reveal('.cards-wrapper', {
     origin: 'top',
     distance: '150px',
     duration: 2000
 });
-
