@@ -11,27 +11,46 @@
   border-radius: 10px;
 }
 
-.habilidades .container-habilidades .habilidade {
+.habilidades .container-habilidades .habilidade.html {
   border: 2px solid var(--cor-azul-media);
-  animation: c-glowing-blue 0.4s ease-out infinite;
+  animation: c-glowing-html 0.5s ease-out infinite;
   animation-direction: alternate;
   background-color: var(--cor-fundo-cinza-claro);
 }
 
-@keyframes c-glowing-blue {
-  0% {
-    box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
-      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-      0 0 10px var(--cor-secundaria), 0 0 10px var(--cor-secundaria);
-  }
+.habilidades .container-habilidades .habilidade.css {
+  border: 2px solid var(--cor-azul-media);
+  animation: c-glowing-css 0.5s ease-out infinite;
+  animation-direction: alternate;
+  background-color: var(--cor-fundo-cinza-claro);
+}
 
-  to {
-    box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
-      0 0 7.5px var(--cor-azul-fraca), 0 0 10px var(--cor-secundaria),
-      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-      0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
-  }
+.habilidades .container-habilidades .habilidade.javascript{
+  border: 2px solid var(--cor-azul-media);
+  animation: c-glowing-javascript 0.5s ease-out infinite;
+  animation-direction: alternate;
+  background-color: var(--cor-fundo-cinza-claro);
+}
+
+.habilidades .container-habilidades .habilidade.github{
+  border: 2px solid var(--cor-azul-media);
+  animation: c-glowing-github 0.5s ease-out infinite;
+  animation-direction: alternate;
+  background-color: var(--cor-fundo-cinza-claro);
+}
+
+.habilidades .container-habilidades .habilidade.react{
+  border: 2px solid var(--cor-azul-media);
+  animation: c-glowing-react 0.5s ease-out infinite;
+  animation-direction: alternate;
+  background-color: var(--cor-fundo-cinza-claro);
+}
+
+.habilidades .container-habilidades .habilidade.git{
+  border: 2px solid var(--cor-azul-media);
+  animation: c-glowing-git 0.5s ease-out infinite;
+  animation-direction: alternate;
+  background-color: var(--cor-fundo-cinza-claro);
 }
 
 .habilidade .card-border::before {
@@ -73,7 +92,7 @@
 
 .habilidades .container-habilidades .habilidade .javascript,
 .devicon-javascript-plain {
-  color: yellow;
+  color: #ead41c;
 }
 
 .habilidades .container-habilidades .habilidade .css,
@@ -83,7 +102,7 @@
 
 .habilidades .container-habilidades .habilidade .github,
 .devicon-github-original {
-    color: black;
+    color: #000000;
 }
 
 .habilidades .container-habilidades .habilidade .react,
