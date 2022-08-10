@@ -1,10 +1,17 @@
 const buttonTop = document.getElementById('backToTopButton')
+const menuMobile = document.querySelector('#menu-hamburguer')
+
 window.sr = ScrollReveal({ reset: true });
 
+
 window.addEventListener('scroll', () => {
+    console.log(menuMobile)
     buttonTop.classList.add('show')
     if (scrollY < 350) {
         buttonTop.classList.remove('show')
+    }
+    else if (scrollY > 400) {
+        menuMobile.checked = false;
     }
 })
 

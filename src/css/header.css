@@ -90,16 +90,16 @@
     display: none;
 }
 
-.header input:checked ~ label .hamburguer {
+.header input:checked~label .hamburguer {
     transform: rotate(45deg);
 }
 
-.header input:checked ~ label .hamburguer:before {
+.header input:checked~label .hamburguer:before {
     transform: rotate(90deg);
     top: 0;
 }
 
-.header input:checked ~ label .hamburguer:after {
+.header input:checked~label .hamburguer:after {
     transform: rotate(90deg);
     bottom: 0;
 }
@@ -115,7 +115,7 @@
         display: block;
     }
 
-    .header nav input:checked ~ ul {
+    .header nav input:checked~ul {
         display: block;
     }
 
@@ -138,6 +138,5 @@
         padding: 20px;
         display: block;
     }
-    
-}
 
+}
