@@ -5,7 +5,6 @@ window.sr = ScrollReveal({ reset: true });
 
 
 window.addEventListener('scroll', () => {
-    console.log(menuMobile)
     buttonTop.classList.add('show')
     if (scrollY < 350) {
         buttonTop.classList.remove('show')
