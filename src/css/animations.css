@@ -1,93 +1,96 @@
 @keyframes c-glowing-html {
-    0% {
-        box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
-            0 0 5px #e53a2d, 0 0 5px #e53a2d,
-            0 0 5px #e53a2d, 0 0 5px #e53a2d,
-            0 0 10px #e53a2d, 0 0 10px #e53a2d;
-    }
-    to {
-        box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
-            0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
-    }
+  0% {
+    box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
+      0 0 5px #e53a2d, 0 0 5px #e53a2d, 0 0 5px #e53a2d, 0 0 5px #e53a2d,
+      0 0 10px #e53a2d, 0 0 10px #e53a2d;
+  }
+  to {
+    box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
+      0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
+  }
 }
-
 
 @keyframes c-glowing-css {
-    0% {
-        box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
-            0 0 5px #3492cb, 0 0 5px #3492cb,
-            0 0 5px #3492cb, 0 0 5px #3492cb,
-            0 0 10px #3492cb, 0 0 10px #3492cb;
-    }
-    to {
-        box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
-            0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
-    }
+  0% {
+    box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
+      0 0 5px #3492cb, 0 0 5px #3492cb, 0 0 5px #3492cb, 0 0 5px #3492cb,
+      0 0 10px #3492cb, 0 0 10px #3492cb;
+  }
+  to {
+    box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
+      0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
+  }
 }
-
 
 @keyframes c-glowing-javascript {
-    0% {
-        box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
-            0 0 5px #ead41c, 0 0 5px #ead41c,
-            0 0 5px #ead41c, 0 0 5px #ead41c,
-            0 0 10px #ead41c, 0 0 10px #ead41c;
-    }
-    to {
-        box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
-            0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
-    }
+  0% {
+    box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
+      0 0 5px #ead41c, 0 0 5px #ead41c, 0 0 5px #ead41c, 0 0 5px #ead41c,
+      0 0 10px #ead41c, 0 0 10px #ead41c;
+  }
+  to {
+    box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
+      0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
+  }
 }
 
-
 @keyframes c-glowing-github {
-    0% {
-        box-shadow: 0 0 4px #161616, 0 0 4px #161616,
-            0 0 15px #161616, 0 0 15px #161616,
-            0 0 15px #161616, 0 0 15px #161616,
-            0 0 10px #161616, 0 0 10px #161616;
-    }
-    to {
-        box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
-            0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
-    }
+  0% {
+    box-shadow: 0 0 4px #161616, 0 0 4px #161616, 0 0 15px #161616,
+      0 0 15px #161616, 0 0 15px #161616, 0 0 15px #161616, 0 0 10px #161616,
+      0 0 10px #161616;
+  }
+  to {
+    box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
+      0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
+  }
 }
 
 @keyframes c-glowing-react {
-    0% {
-        box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
-            0 0 5px #5ccfee, 0 0 5px #5ccfee,
-            0 0 5px #5ccfee, 0 0 5px #5ccfee,
-            0 0 10px #5ccfee, 0 0 10px #5ccfee;
-    }
-    to {
-        box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
-            0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
-    }
+  0% {
+    box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
+      0 0 5px #5ccfee, 0 0 5px #5ccfee, 0 0 5px #5ccfee, 0 0 5px #5ccfee,
+      0 0 10px #5ccfee, 0 0 10px #5ccfee;
+  }
+  to {
+    box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
+      0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
+  }
 }
 
+@keyframes c-glowing-sass {
+  0% {
+    box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
+      0 0 5px #bf4080, 0 0 5px #bf4080, 0 0 5px #bf4080, 0 0 5px #bf4080,
+      0 0 10px #bf4080, 0 0 10px #bf4080;
+  }
+  to {
+    box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
+      0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
+  }
+}
 @keyframes c-glowing-git {
-    0% {
-        box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
-            0 0 5px #e53a2d, 0 0 5px #e53a2d,
-            0 0 5px #e53a2d, 0 0 5px #e53a2d,
-            0 0 10px #e53a2d, 0 0 10px #e53a2d;
-    }
-    to {
-        box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
-            0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
-            0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
-    }
+  0% {
+    box-shadow: 0 0 2px var(--cor-secundaria), 0 0 2px var(--cor-secundaria),
+      0 0 5px #e53a2d, 0 0 5px #e53a2d, 0 0 5px #e53a2d, 0 0 5px #e53a2d,
+      0 0 10px #e53a2d, 0 0 10px #e53a2d;
+  }
+  to {
+    box-shadow: 0 0 2.5px var(--cor-secundaria), 0 0 2.5px var(--cor-azul-fraca),
+      0 0 7.5px var(--cor-secundaria), 0 0 10px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 5px var(--cor-secundaria),
+      0 0 5px var(--cor-secundaria), 0 0 2px var(--cor-secundaria);
+  }
 }
-

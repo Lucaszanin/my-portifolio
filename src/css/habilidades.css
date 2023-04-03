@@ -7,6 +7,7 @@
 
 .habilidades .container-habilidades .habilidade {
   max-width: 300px;
+  height: 400px;
   padding: 40px 20px;
   border-radius: 10px;
 }
@@ -25,28 +26,35 @@
   background-color: var(--cor-fundo-cinza-claro);
 }
 
-.habilidades .container-habilidades .habilidade.javascript{
+.habilidades .container-habilidades .habilidade.javascript {
   border: 2px solid var(--cor-azul-media);
   animation: c-glowing-javascript 0.6s ease-out infinite;
   animation-direction: alternate;
   background-color: var(--cor-fundo-cinza-claro);
 }
 
-.habilidades .container-habilidades .habilidade.github{
+.habilidades .container-habilidades .habilidade.github {
   border: 2px solid var(--cor-azul-media);
   animation: c-glowing-github 0.6s ease-out infinite;
   animation-direction: alternate;
   background-color: var(--cor-fundo-cinza-claro);
 }
 
-.habilidades .container-habilidades .habilidade.react{
+.habilidades .container-habilidades .habilidade.react {
   border: 2px solid var(--cor-azul-media);
   animation: c-glowing-react 0.6s ease-out infinite;
   animation-direction: alternate;
   background-color: var(--cor-fundo-cinza-claro);
 }
 
-.habilidades .container-habilidades .habilidade.git{
+.habilidades .container-habilidades .habilidade.sass {
+  border: 2px solid var(--cor-azul-media);
+  animation: c-glowing-sass 0.6s ease-out infinite;
+  animation-direction: alternate;
+  background-color: var(--cor-fundo-cinza-claro);
+}
+
+.habilidades .container-habilidades .habilidade.git {
   border: 2px solid var(--cor-azul-media);
   animation: c-glowing-git 0.6s ease-out infinite;
   animation-direction: alternate;
@@ -86,8 +94,8 @@
 }
 
 .habilidades .container-habilidades .habilidade .html,
-.devicon-html5-plain-wordmark{
-    color: #e53a2d;
+.devicon-html5-plain-wordmark {
+  color: #e53a2d;
 }
 
 .habilidades .container-habilidades .habilidade .javascript,
@@ -97,22 +105,27 @@
 
 .habilidades .container-habilidades .habilidade .css,
 .devicon-css3-plain-wordmark {
-    color: #3492cb;
+  color: #3492cb;
 }
 
 .habilidades .container-habilidades .habilidade .github,
 .devicon-github-original {
-    color: #000000;
+  color: #000000;
 }
 
 .habilidades .container-habilidades .habilidade .react,
 .devicon-react-original {
-    color:  #5ccfee;
+  color: #5ccfee;
+}
+
+.habilidades .container-habilidades .habilidade .sass,
+.devicon-sass-original {
+  color: #bf4080;
 }
 
 .habilidades .container-habilidades .habilidade .git,
 .devicon-git-plain {
-    color: #e53a2d;
+  color: #e53a2d;
 }
 
 .habilidades .container-habilidades .habilidade p {
